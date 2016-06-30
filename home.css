@@ -1,0 +1,87 @@
+/* CSS Document */
+#main {
+    width:1000px;
+    background-color:white;
+    margin:0 auto;
+	height:1000;
+}
+    
+.image1 {	
+	width:940px;
+	height:521px;
+}
+
+#botCont {
+    clear:both;
+    float:left;
+    margin-top:20px;
+}
+
+#botCont img {
+        width:200px;
+        margin:10px;
+        float:left;
+    }
+
+
+#photoroll{
+width: 500px;
+text-align:left;
+}
+
+    #photoroll a:hover {
+        text-decoration:underline;
+    }
+
+#middle {
+	clear:both;
+	height:150px;
+	padding: 10px 0;
+}
+
+#middleN {
+	clear:both;
+	height:150px;
+	border-top: 1px solid gray;
+	padding: 10px 0;
+}
+
+.paragraph1 {
+	color:black;
+	line-height:1;
+}
+
+h5 {
+	font-family:Arial, helvetica, sans-serif;
+	text-align:jutify;
+}
+
+h1 {
+	font-family:Arial, helvetica, sans-serif;
+	text-align:center;
+}
+
+ .slider {
+	width: 1024px;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 525px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}

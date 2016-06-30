@@ -1,0 +1,56 @@
+/* CSS Document */
+#main {
+    width:1000px;
+    background-color:white;
+	height:600px;
+    margin:0 auto;
+}
+
+h5 {
+	font-family:Arial, helvetica, sans-serif;
+	text-align:left;
+	Line-height:0;	
+}
+
+h3 {
+	font-family:Arial, helvetica, sans-serif;
+	text-align:left;
+}
+
+
+
+
+#message{
+	width:500px;
+	float:left;
+	background-color:white;	
+}
+
+#r_content {
+	width:500px;
+	float:left;
+}
+
+#message form {
+	background-color:white;
+	width:430px;	
+}
+
+#message form div {
+	margin-top:1em;
+}
+
+#googleMap {
+    width: 400px;
+    height: 300px;
+    background-color: #CCC;
+
+}
+
+.button {	
+	color:yellow;
+	padding:0 10px;
+}
+.gray{	
+	text-color:gray;
+	}

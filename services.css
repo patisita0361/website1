@@ -1,0 +1,57 @@
+/* CSS Document */
+#main {
+    width:1000px;
+    background-color:white;
+	margin:0 auto;    
+}
+
+#left_col {
+	width:400px;
+	height:350px;
+	float:left;
+	text-align:left;
+	padding:0 50px;
+}
+
+#right_col {
+	width:400px;
+	height:350px;
+	float:right;
+	text-align:left;
+	padding:0px 50px;
+}
+
+#bot_col {
+	clear:both;
+	width:1000px;
+	height:350px;
+	padding:3px;
+	margin:10px;
+}
+
+#bot_col img {
+	width:210px;
+	height:300px;	
+	border:1px solid black;
+	margin:10px;
+	filter: sepia(100%);
+			-webkit-filter: sepia(100%);
+			-moz-filter: sepia(100%);
+			-o-filter: sepia(100%);
+			-ms-filter: sepia(100%);
+}
+
+#bot_col ul li {
+    display:inline;
+    float:left;
+    list-style:none;     
+}
+
+#bot_col img:hover {
+    filter: sepia(0%);
+			-webkit-filter: sepia(0%);
+			-moz-filter: sepia(0%);
+			-o-filter: sepia(0%);
+			-ms-filter: sepia(0%);
+    
+
