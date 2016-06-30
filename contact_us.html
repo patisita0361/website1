@@ -1,0 +1,158 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Y and P New York</title>
+<meta NAME="description" CONTENT="Tailors that specialize in alterations and custom made clothing" />
+<meta NAME="keyword" CONTENT="tailors, tailoring, new york tailor, custom made, alteration, alterations" />
+
+<link rel="stylesheet" type="text/css" href="css/ms.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/contact_us.css" media="screen" />
+<script type="text/javascript" src="js/validateform.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<header>
+<div id="banner">
+	<a href="index.html"><img src="images/Drawing(5).png" alt="logo1" styleClass="logo" /></a>
+	             	                 
+	<div id="navigation">
+	<ul>
+    	<li><a href="index.html"><strong>HOME</strong></a></li>
+        <li><a href="info.html"><strong>INFO</strong></a></li>
+        <li><a href="services.html"><strong>SERVICES </strong></a></li>
+        <li ><a href="custom_made.html"><strong>CUSTOM MADE</strong></a></li>
+        <li ><a href="contact_us.html"><strong>CONTACT US</strong></a></li>
+    </ul>
+	</div>
+	          
+</div>
+
+</header>
+<section><!-- InstanceBeginEditable name="Container" -->
+<div id="main">	
+
+	<div id="message">
+	<h3>MAKE AN APPOINTMENT</h3>
+	<form action="contactformprocess.php" method="post" name="form1" id="form1">
+	  <table width="100%" border="0" cellpadding="6">
+	    <tbody>
+	      <tr>
+	        <td style="text-align: right"><label for="email">Email Address:</label></td>
+	        <td style="text-align: left"><span style="text-align: right">
+	          <input name="email" type="text" id="email" size="35">
+	        </span></td>
+	        </tr>
+	      <tr>
+	        <td style="text-align: right"><label for="First Name">First Name:</label></td>
+	        <td style="text-align: left"><span style="text-align: right">
+	          <input name="fname" type="text" id="fname" size="35">
+	        </span></td>
+	        </tr>
+	      <tr>
+	        <td style="text-align: right"><label for="lname">Last Name:</label></td>
+	        <td style="text-align: left"><span style=""></span><span style="text-align: right">
+	          <input name="lname" type="text" id="lname" size="35">
+	        </span></td>
+	        </tr>
+	      <tr>
+	        <td style="text-align: right"><label for="lname">Phone</label>
+	          <label for="lname">:</label></td>
+	        <td style="text-align: left"><span style="text-align: right">
+	          <input name="phone" type="text" id="phone" size="35">
+	        </span></td>
+	        </tr>
+	      <tr>
+	        <td style="text-align: right">Message:</td>
+	        <td style="text-align: left"><span style="text-align: right">
+	          <textarea name="message" cols="33" rows="5" id="message"></textarea>
+            </span></td>
+	        </tr>
+	      <tr>
+	        <td style="text-align: right"><input type="reset" name="reset" id="reset" value="Reset Form"></td>
+	        <td style="text-align: left"><input name="submit" type="submit" onclick="validate()" id="submit" formmethod="POST" value="Submit Form"></td>
+	        </tr>
+	      </tbody>
+	    </table>
+	  </form>
+	
+    </div>  
+        
+        <div id="r_content">
+            <div id="visitUs">
+			<h3>LOCATION</h3>
+			<h5>58 East 53st</h5>
+			<h5>New York, NY 10022</h5>
+			<h5>(212) 605-9234</h5>
+			</div>
+			<div id="googleMap">
+			
+			</div>
+	
+
+		</div>
+</div>	   
+<!-- InstanceEndEditable --></section>
+<footer>
+<div id="footer">	
+    
+     	<div id="l_footer">
+    	 <h4>OPENING HOURS</h4>
+    	 <p>Mon-Fri 9 AM - 6PM</p>
+    	 <p>Sat 9 AM - 3 PM</p>
+    	</div>
+    	
+    	<div id="c_footer">
+		<h4>GET IN TOUCH</h4>    
+    	<p>58 East 53st</p>
+    	<p>New York, NY 10022</p>
+    	<p>Phone: (212) 504-9234</p>
+    	<p>e-mail:yandpnewyork@hotmail.com</p>
+    	</div>
+   
+    	<div id="r_footer">
+		<h4>QUICK LINKS</h4>
+    	<ul>
+        	<li><a href="#"><strong>Home</strong></a></li>
+        	<li><a href="#"><strong>Info</strong></a></li>
+        	<li><a href="#"><strong>Services</strong></a></li>
+        	<li ><a href="#"><strong>Custom Made</strong></a></li>
+        	<li ><a href="contact_us.html"><strong>Contact Us</strong></a></li>
+       </ul>
+       <h4>FOLLOW US</h4>
+       
+       		<div id="socialMedia">
+       		<ul>      
+       		<li><a href="#"><img src="/images/facebook-icon.png" alt="facebook" styleClass="socialMedia"/></a></li>
+       		<li><a href="#"><img src="/images/google-plus-icon.png" alt="google" styleClass="socialMedia"/></a></li>
+       		<li><a href="#"><img src="/images/pinterest-icon.png" alt="pinterest" styleClass="socialMedia"/></a></li>
+ 	      	<li><a href="#"><img src="/images/Twitter_alt.png" alt="twitter" styleClass="socialMedia"/></a></li>
+      		</ul>
+       		</div>
+       
+      	</div>
+    
+    <div id="b_footer">
+    	<p>(c) Copyright 2016 by Y_P Store.</p>
+    </div>
+   
+</div>
+</footer>
+</body>
+<!-- InstanceEnd --></html>
